@@ -8914,19 +8914,23 @@ h1, h2, h3 {
   font-family: "Source Sans Pro", "Montserrat", "sans-serif"; }
 
 /* line 17, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
+h2 {
+  margin-bottom: 2em; }
+
+/* line 21, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
 .card {
   font-weight: 300;
   padding: 10px; }
 
-/* line 22, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
+/* line 26, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
 .card h2 {
   font-size: 20px; }
 
-/* line 26, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
+/* line 30, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
 .img-circle {
   border-radius: 50%; }
 
-/* line 30, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
+/* line 34, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
 .img-responsive {
   display: block;
   height: auto;
@@ -9117,6 +9121,11 @@ h1, h2, h3 {
   #banner p {
     font-size: 25px;
     font-weight: 100; }
+
+/* line 1, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/components/_button.css.scss */
+.btn-rounded {
+  border-radius: 50px;
+  padding: 0.3em 1.5em; }
 
 /* line 1, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/components/_contact.css.scss */
 #contact {
