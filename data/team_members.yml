@@ -1,0 +1,6 @@
+- name: Fabien Loup
+  image: fabien.jpg
+  description: "Fabien is the inventor of Stylus. He thought we should have a tool to make svg that is easy and simple to use. Also, it must be cheaper and non-constraining. So He made Stylus. And it just works."
+- name: Richard Burton
+  image: fox.jpg
+  description: "Richard* is the amazing designer behind Stylus. Thanks to him, the app does not like any random boostrap graphic style. He lives in Japan and is all for remaining anonyme. That explains the fake name and image."

@@ -7,16 +7,13 @@ title: Contact us
   <h1 class="text-center">Contact us</h1>
   <div class="container text-center">
     <div class="row">
-      <div class="col-md-6 text-center">
-        <%= image_tag "fabien.jpg", class: "team-member" %>
-        <h3>Fabien Loup</h3>
-        <p>Fabien is the inventor of Stylus. He thought we should have a tool to make svg that is easy and simple to use. Also, it must be cheaper and non-constraining. So He made Stylus. And it just works.</p>
-      </div>
-      <div class="col-md-6 text-center">
-        <%= image_tag "fox.jpg", class: "team-member" %>
-        <h3>Richard Burton</h3>
-        <p>Richard* is the amazing designer behind Stylus. Thanks to him, the app does not like any random boostrap graphic style. He lives in Japan and is all for remaining anonyme. That explains the fake name and image</p>
-      </div>
+      <% data.team_members.each do |member| %>
+        <div class="col-md-6 text-center">
+          <%= image_tag member.image, class: "img-circle" %>
+          <h3><%= member.name %></h3>
+          <p><%= member.description %></p>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>

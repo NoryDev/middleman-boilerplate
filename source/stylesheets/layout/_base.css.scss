@@ -5,21 +5,12 @@
  * already a Bootstrap SCSS variable that does the same job
  * ------------------------------------- */
 
- body {
-  font-family: 'Open Sans', sans-serif;
-  color: #141414;
+body {
+  font-family: $base-font;
+  color: black;
 }
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.blue-bg {
-    background: none repeat scroll 0 0 #469ae0;
-    color: white;
-}
-.padded {
-    padding-bottom: 8em;
-    padding-top: 8em;
+  font-family: $header-font;
 }
 
 .card {
