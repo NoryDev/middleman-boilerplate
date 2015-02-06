@@ -1,4 +1,20 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Styl.smart
+  picture: http://lorempixel.com/300/300/people
+  summary: The <strong>smartest</strong> Stylus.<br>Write no more typos..
+  price: 199€
+  color: primary
+- name: Styl.speed
+  picture: http://lorempixel.com/300/300/sports
+  summary: The <strong>quickest</strong> Stylus.<br>Write texts before you do..
+  price: 299€
+  color: warning
+- name: Styl.colored
+  picture: http://lorempixel.com/300/300/nature
+  summary: The <strong>nicest</strong> Stylus.<br>Write with colors..
+  price: 599€
+  color: danger
+- name: Styl.gold
+  picture: http://lorempixel.com/300/300/food
+  summary: The <strong>classiest</strong> Stylus.<br>Write texts that's not cheap..
+  price: 1299€
+  color: success
