@@ -8922,6 +8922,16 @@ h1, h2, h3 {
 .card h2 {
   font-size: 20px; }
 
+/* line 26, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
+.img-circle {
+  border-radius: 50%; }
+
+/* line 30, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_base.css.scss */
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%; }
+
 /* line 2, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
 #footer {
   background: none repeat scroll 0 0 black;
@@ -9112,11 +9122,6 @@ h1, h2, h3 {
 #contact {
   background-image: url("../images/letters.jpg");
   background-size: cover; }
-
-/* line 1, /Users/floup/code/NoryDev/middleman-boilerplate/source/stylesheets/components/_team.css.scss */
-.img-circle {
-  width: 300px;
-  border-radius: 50%; }
 
 /*
 ==============================================
