@@ -13,6 +13,10 @@ h1, h2, h3 {
   font-family: $header-font;
 }
 
+h2 {
+  margin-bottom: 2em;
+}
+
 .card {
     font-weight: 300;
     padding: 10px;
