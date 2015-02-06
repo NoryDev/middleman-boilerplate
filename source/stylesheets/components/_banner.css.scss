@@ -1,0 +1,18 @@
+// Banner (1st section) style
+#banner {
+  background-image: image-url('background.jpg');
+  background-size: cover;
+  color: white;
+  height: 650px;
+  padding: 150px 0;
+}
+
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+
+#banner p {
+  font-size: 25px;
+  font-weight: 100;
+}
